@@ -1,0 +1,59 @@
+* {
+  font-family: Roboto;
+  color: #0f172a;
+}
+
+.githubPopularReposBgContainer {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+}
+
+.popular {
+  font-family: Lobster;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.languageFilterUnorderedListContainer {
+  list-style-type: none;
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-left: 0px;
+}
+
+.languagesUnorderedListContainer {
+  width: 90%;
+  max-width: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-left: 0px;
+}
+
+.failureViewContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.failureImage {
+  width: 60%;
+}
+
+.failureMsg {
+  text-align: center;
+  font-family: Lobster;
+  font-size: 20px;
+}

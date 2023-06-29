@@ -1,0 +1,21 @@
+.languageFilterList {
+  height: 30px;
+}
+
+.languageFilterButton {
+  border: none;
+  background: none;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.buttonHighlight {
+  border: 1px solid #0284c7;
+  color: #0284c7;
+  border-radius: 5px;
+}
